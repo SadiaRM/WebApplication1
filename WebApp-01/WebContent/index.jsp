@@ -67,7 +67,7 @@
             }
         }
         </style>
-<title>Insert title here</title>
+<title>Sample Login Application</title>
 </head>
 <body>
 <h1>Welcome to Login Page</h1>
