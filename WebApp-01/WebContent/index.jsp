@@ -81,7 +81,7 @@
             UserName: <input type="text" id="username"> <br>
             Password: <input type="password" id="password"> <br>
             
-            <button type="button">SignIn</button>
+            <button type="button">Sign-In</button>
             <label>
                     <input type="checkbox" checked="checked" name="remember"> Remember me
             </label>
