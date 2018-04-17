@@ -27,6 +27,16 @@
             width: 100%;
         }
         
+         input[type=submit] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+        
         button:hover {
             opacity: 0.8;
         }
@@ -70,34 +80,33 @@
 <title>Sample Login Application1</title>
 </head>
 <body> 
-<h1>Welcome to Login Page</h1>
+	<h1>Welcome to Login Page</h1>
+	
+	<h2>Login Form1</h2>
+     <div class="imgcontainer">
+		<img src="avatar2.png" alt="Avatar" class="avatar">
+     </div>
 
-<h2>Login Form</h2>
-        <div class="imgcontainer">
-                <img src="img_avatar2.png" alt="Avatar" class="avatar">
-              </div>
+     <form action="LoggedIn.html" id="myLogin">
+         UserName: <input type="text" id="username"> <br>
+         Password: <input type="password" id="password"> <br>
+         
+         <!-- <button type="button">Sign-In</button>  -->
+         <input type="submit" value="Sign-In" />
+         <label>
+			<input type="checkbox" checked="checked" name="remember"> Remember me
+         </label>
 
-        <form action="Servlet1" id="myLogin">
-            UserName: <input type="text" id="username"> <br>
-            Password: <input type="password" id="password"> <br>
-            
-            <button type="button">Sign-In</button>
-            <label>
-                    <input type="checkbox" checked="checked" name="remember"> Remember me
-            </label>
+         <div class="container" style="background-color:#f1f1f1">
+             <button type="button" class="cancelbtn">Cancel</button>
+             <span class="psw">Forgot <a href="#">password?</a></span>
+         </div>
+     </form>
 
-            <div class="container" style="background-color:#f1f1f1">
-                <button type="button" class="cancelbtn">Cancel</button>
-                <span class="psw">Forgot <a href="#">password?</a></span>
-            </div>
-        </form>
-
-
-
-<form action="Servlet1">
-	<input type="submit" value="Send" />
-</form>
-<hr/>
+	<form action="Servlet1">
+		<input type="submit" value="Send" />
+	</form>
+	<hr/>
 
 </body>
 </html>

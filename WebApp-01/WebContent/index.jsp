@@ -72,9 +72,9 @@
 <body> 
 <h1>Welcome to Login Page</h1>
 
-<h2>Login Form</h2>
+<h2>Login Form11</h2>
         <div class="imgcontainer">
-                <img src="img_avatar2.png" alt="Avatar" class="avatar">
+                <img src="avatar2.png" alt="Avatar" class="avatar">
               </div>
 
         <form action="Servlet1" id="myLogin">
